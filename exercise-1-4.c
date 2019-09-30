@@ -3,7 +3,8 @@
 /* print Celsius-Fahrenheit table
     for celsius = 0, 20, ..., 300 */
 
-int main() {
+int main()
+{
     int fahr, celsius;
     int lower, upper, step;
 
