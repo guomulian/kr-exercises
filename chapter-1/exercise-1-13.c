@@ -12,7 +12,7 @@ int main()
     for (l = 0; l < MAXLEN; ++l)
         lengths[l] = 0;
 
-    l = 0; // reuse i
+    l = 0; // reuse l
 
     while ((c = getchar()) != EOF) {
         if (c == ' ' || c == '\n' || c == '\t') {
