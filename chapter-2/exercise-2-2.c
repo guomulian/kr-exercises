@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define MAXLINE 1000        /* maximum input line size */
-#define MINCHAR 0          /* minimum characters to print, changed to 5 for easier testing */
+#define MINCHAR 0           /* minimum characters to print */
 
 int fetchline(char line[], int maxline); /* function name changed from textbook due to conflict, see https://stackoverflow.com/questions/8763052/why-do-i-get-a-conflicting-types-for-getline-error-when-compiling-the-longest */
 
